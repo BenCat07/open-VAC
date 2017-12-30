@@ -5,6 +5,9 @@
 # ALL RIGHTS RESERVED.
 #
 # How to make it unconsistant xddd
+
+#include <SteamProfile>
+ext int SteamID;
 int rand1 = rand() % 100;
 if (rand > 50) {
     usleep(rand * 1327);
