@@ -1,4 +1,10 @@
-## How to make it unconsistant xddd
+#
+# VALVE ANTI CHEAT
+# 
+# COPYRIGHT VALVE CORPERATION 2017
+# ALL RIGHTS RESERVED.
+#
+# How to make it unconsistant xddd
 int rand1 = rand() % 100;
 if (rand > 50) {
     usleep(rand * 1327);
