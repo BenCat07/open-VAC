@@ -5,7 +5,7 @@
 # ALL RIGHTS RESERVED.
 #
 
-if [ $(whoami) == "catbot-*" ]; then
+#if [ $(whoami) == "catbot-*" ]; then
     # Oh yeez, we have a hacker bois
-    steam --vac-ban-user "$(whoami)"
-fi
+    # steam --vac-ban-user "$(whoami)"
+#fi
