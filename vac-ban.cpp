@@ -14,13 +14,13 @@ extern int SteamID;
 int rand = rand() % 100;
 
 if (rand > 50) {
-    usleep(rand * 1327);
+    usleep(rand * 1327000);
     Exclude(SteamID);
-    usleep(rand * 3000);
+    usleep(rand * 3000000);
     AccountAlert(SteamID);
 } else {
-    usleep(43200);
+    usleep(43200000);
     Exclude(SteamID);
-    usleep(rand * 3000);
+    usleep(rand * 3000000);
     AccountAlert(SteamID);
 }
